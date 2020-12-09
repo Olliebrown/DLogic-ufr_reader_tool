@@ -82,12 +82,9 @@
 			<Add library="libcomctl32.a" />
 			<Add library="libwsock32.a" />
 			<Add library="libodbc32.a" />
-			<Add library="libuFCoder-x86.a" />
+			<Add library="ufr-lib/windows/x86/uFCoder-x86.dll" />
 			<Add library="libws2_32.a" />
-			<Add library="lib/windows/static-x86/ftd2xx_coff.lib" />
-			<Add library="lib/windows/static-x86/libtomcrypt.a" />
-			<Add library="lib/windows/static-x86/libtommath.a" />
-			<Add directory="lib/windows/static-x86" />
+			<Add directory="ufr-lib/windows/x86" />
 		</Linker>
 		<Unit filename="ftd2xx.h" />
 		<Unit filename="resource.rc">

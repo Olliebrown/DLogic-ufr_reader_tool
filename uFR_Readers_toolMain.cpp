@@ -1,21 +1,22 @@
 /***************************************************************
  * Name:      uFR_Readers_toolMain.cpp
  * Purpose:   Code for Application Frame
- * Author:    Aleksandar Krstic (aleksandar.krstic@d-logic.rs)
+ * Author:    Digital Logic (support@d-logic.rs)
  * Created:   2019-03-14
- * Copyright: Aleksandar Krstic (www.d-logic.net)
+ * Copyright: Digital Logic (www.d-logic.net)
  * License:
  **************************************************************/
-#ifdef __linux__
-#define DL_USE_STATIC_LIB
-#endif
-#ifdef _WIN32
-#define DL_USE_STATIC_LIB
-#endif
+
+//#ifdef __linux__
+//#define DL_USE_STATIC_LIB
+//#endif
+//#ifdef _WIN32
+//#define DL_USE_STATIC_LIB
+//#endif
 #include "uFR_Readers_toolMain.h"
 #include <wx/msgdlg.h>
-#include "lib/include/uFCoder.h"
-#include "ftd2xx.h"
+#include "ufr-lib/include/uFCoder.h"
+//#include "ftd2xx.h"
 #include <string.h>
 #include <string>
 #include <map>

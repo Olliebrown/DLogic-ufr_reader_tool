@@ -6,7 +6,7 @@
  * Copyright: Aleksandar Krstic (www.d-logic.net)
  * License:
  **************************************************************/
-#include "lib/include/uFCoder.h"
+#include "ufr-lib/include/uFCoder.h"
 #ifndef UFR_READERS_TOOLMAIN_H
 #define UFR_READERS_TOOLMAIN_H
 
